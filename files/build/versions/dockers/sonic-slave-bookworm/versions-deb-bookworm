@@ -1876,7 +1876,7 @@ python3-parameterized==0.8.1-6
 python3-parse==1.19.0-0.2
 python3-parso==0.8.3-1
 python3-pep517==0.13.0-2
-python3-pexpect==4.9.0
+python3-pexpect==4.8.0-4
 python3-pickleshare==0.7.5-5
 python3-pil==9.4.0-1.1+deb12u1
 python3-pil.imagetk==9.4.0-1.1+deb12u1

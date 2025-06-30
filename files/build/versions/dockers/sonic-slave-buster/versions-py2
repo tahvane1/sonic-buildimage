@@ -54,7 +54,7 @@ packaging==19.0
 parse==1.6.6
 pathlib2==2.3.3
 pbr==4.2.0
-pexpect==4.9.0
+pexpect==4.8.0-4
 pillow==5.4.1
 pip==20.3.4
 pluggy==0.8.0
