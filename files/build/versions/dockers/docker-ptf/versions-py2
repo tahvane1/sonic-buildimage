@@ -38,7 +38,7 @@ ptf==0.9.1
 ptyprocess==0.7.0
 pyaml==21.10.1
 pybrctl==0.1.4
-pycparser==2.22
+pycparser==2.21
 pygments==2.5.2
 pylibpcap==0.6.4
 pynacl==1.4.0

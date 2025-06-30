@@ -62,7 +62,7 @@ ptyprocess==0.7.0
 pure-eval==0.0.0
 pyaml==25.5.0
 pybrctl==0.1.4
-pycparser==2.22
+pycparser==2.21
 pycrypto==2.6.1
 pygments==2.14.0
 pygobject==3.42.2
