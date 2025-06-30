@@ -6,7 +6,7 @@ nnpy==0.1
 pip==20.0.2
 protobuf==3.18.1
 ptf==0.9.1
-pycparser==2.21
+pycparser==2.22
 pypcap==1.2.3
 scapy==2.4.5
 setuptools==45.2.0
