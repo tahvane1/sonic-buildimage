@@ -48,6 +48,9 @@
     "DEVICE_METADATA_TYPE_FABRIC_SPINEROUTER_PATTERN": {
         "desc": "DEVICE_METADATA value as FabricSpineRouter for Type field"
     },
+    "DEVICE_METADATA_TYPE_LOWER_SPINEROUTER_PATTERN": {
+        "desc": "DEVICE_METADATA value as LowerSpineRouter for Type field"
+    },
     "DEVICE_METADATA_TYPE_BMC_MGMT_TOR_PATTERN": {
         "desc": "DEVICE_METADATA value as BmcMgmtToRRouter for Type field"
     },
@@ -62,6 +65,30 @@
     },
     "DEVICE_METADATA_TYPE_MGMT_ACCESS_ROUTER_PATTERN": {
         "desc": "DEVICE_METADATA value as MgmtAccessRouter for Type field"
+    },
+    "DEVICE_METADATA_TYPE_LOWER_MGMT_AGGREGATOR_PATTERN": {
+        "desc": "DEVICE_METADATA value as LowerMgmtAggregator for Type field"
+    },
+    "DEVICE_METADATA_TYPE_UPPER_MGMT_AGGREGATOR_PATTERN": {
+        "desc": "DEVICE_METADATA value as UpperMgmtAggregator for Type field"
+    },
+    "DEVICE_METADATA_TYPE_MINI_TS_PATTERN": {
+        "desc": "DEVICE_METADATA value as MiniTs for Type field"
+    },
+    "DEVICE_METADATA_TYPE_LEAF_TS_PATTERN": {
+        "desc": "DEVICE_METADATA value as LeafTs for Type field"
+    },
+    "DEVICE_METADATA_TYPE_SPINE_TS_PATTERN": {
+        "desc": "DEVICE_METADATA value as SpineTs for Type field"
+    },
+    "DEVICE_METADATA_TYPE_CORE_TS_PATTERN": {
+        "desc": "DEVICE_METADATA value as CoreTs for Type field"
+    },
+    "DEVICE_METADATA_TYPE_CONSOLE_SERVER_PATTERN": {
+        "desc": "DEVICE_METADATA value as ConsoleServer for Type field"
+    },
+    "DEVICE_METADATA_TYPE_TERMINAL_SERVER_PATTERN": {
+        "desc": "DEVICE_METADATA value as TerminalServer for Type field"
     },
     "DEVICE_METADATA_TYPE_SONIC_DPU_PATTERN": {
         "desc": "DEVICE_METADATA value as SmartSwitchDPU for Type field"
@@ -217,6 +244,12 @@
     },
     "DEVICE_METADATA_VALID_SLICE_TYPE": {
         "desc": "Verifying valid slice_type configuration."
+    },
+    "DEVICE_METADATA_VALID_LOCATION_TYPE": {
+        "desc": "Verifying valid location_type configuration."
+    },
+    "DEVICE_METADATA_VALID_NEXTHOP_GROUP": {
+        "desc": "Verifying nexthop_group configuration."
     },
     "DEVICE_METADATA_VALID_T2_GROUP_ASNS": {
         "desc": "Verifying valid t2_group_asns."

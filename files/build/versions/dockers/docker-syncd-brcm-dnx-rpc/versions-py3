@@ -1,4 +1,8 @@
 cffi==1.16.0
 nnpy==1.4.2
+<<<<<<< HEAD
 pycparser==2.21
+=======
+pycparser==2.23
+>>>>>>> c7b0a0f8c1d35da50fbd9a215f405acb6888a832
 scapy==2.5.0
