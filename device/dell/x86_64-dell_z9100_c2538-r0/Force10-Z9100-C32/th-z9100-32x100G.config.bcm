@@ -58,10 +58,10 @@ portmap_4=13:100
 portmap_3=9:100
 portmap_66=129:10
 portmap_100=131:10
-# portmap_33=132:10
-# portmap_67=133:10
-# portmap_101=134:10
-# portmap_135=135:10
+portmap_33=132:10
+portmap_67=133:10
+portmap_101=134:10
+portmap_135=135:10
 
 xgxs_tx_lane_map_ce0=0x0132
 xgxs_tx_lane_map_ce1=0x2301
