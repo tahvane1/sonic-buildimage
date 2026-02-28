@@ -34,7 +34,7 @@ class Fan(FanBase):
             # from 1
             self.fantrayindex = fantray_index + 1
             self.fanindex = fan_index + 1
-            self.position = self.fanindex
+            self.fan_position = self.fanindex
             self.fan_presence_reg = "fan{}_fault".format(
                2 * (self.fantrayindex - 1) + (self.fanindex - 1) + 1 )
             self.fan_status_reg = "fan{}_alarm".format(
