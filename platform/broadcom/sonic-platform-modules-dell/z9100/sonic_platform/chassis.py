@@ -508,7 +508,7 @@ class Chassis(ChassisBase):
                 self.oir_fd = -1
                 self.epoll = -1
 
-    def initialize_system_led(self):
+    def initizalize_system_led(self):
         return True
 
     def set_status_led(self, color):
