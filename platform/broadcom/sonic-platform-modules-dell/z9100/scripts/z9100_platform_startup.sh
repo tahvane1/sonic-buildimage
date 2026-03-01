@@ -123,6 +123,7 @@ switch_board_qsfp_mux() {
         *)            echo "z9100_platform: switch_board_qsfp_mux: invalid command !"
                       ;;
     esac
+}
 
 #Attach/Detach the SFP modules on PCA9548_2
 switch_board_sfp() {
