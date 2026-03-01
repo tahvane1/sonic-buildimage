@@ -22,6 +22,8 @@ z9100/scripts/sensors usr/bin
 z9100/scripts/z9100_ssd_mon.sh usr/local/bin
 z9100/scripts/z9100_ssd_upgrade_status.sh usr/local/bin
 build-z9100/sonic_platform-1.0-py3-none-any.whl usr/share/sonic/device/x86_64-dell_z9100_c2538-r0
+z9100/scripts/platform_watchdog_enable.sh usr/local/bin
+z9100/scripts/platform_watchdog_disable.sh usr/local/bin
 z9100/cfg/z9100-modules.conf etc/modules-load.d
 z9100/systemd/platform-modules-z9100.service etc/systemd/system
 z9100/systemd/z9100-lpc-monitor.service etc/systemd/system
