@@ -544,4 +544,4 @@ class Chassis(ChassisBase):
         if (reg_val != 'ERR' and reg_val != ''):
             return self.status_led_reg_to_color.get(int(reg_val, 16), None)
         else:
-            return None
+            return "N/A"
