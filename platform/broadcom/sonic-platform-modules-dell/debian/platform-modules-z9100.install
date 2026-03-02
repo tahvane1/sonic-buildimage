@@ -36,7 +36,7 @@ z9100/systemd/z9100-ssd-monitor.timer etc/systemd/system
 z9100/systemd/z9100-ssd-upgrade-status.service etc/systemd/system
 z9100/systemd/z9100-reboot-cause.service etc/systemd/system
 z9100/systemd/z9100-platform-startup.service etc/systemd/system
-z9100/systemd/z9100-sonic-exporter.service etc/systemd/system
+z9100/systemd/sonic-exporter.service etc/systemd/system
 common/fw-updater usr/local/bin
 common/onie_mode_set usr/local/bin
 common/onie_version usr/local/bin
