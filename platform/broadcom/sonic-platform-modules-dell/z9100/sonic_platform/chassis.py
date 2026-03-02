@@ -541,7 +541,7 @@ class Chassis(ChassisBase):
             vendor specified.
         """
         reg_val = self._get_pmc_register(self.status_led_reg)
-        if (reg_val != 'ERR'):
+        if (reg_val != 'ERR' and reg_val != ''):
             return self.status_led_reg_to_color.get(int(reg_val, 16), None)
         else:
             return None

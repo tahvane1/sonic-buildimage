@@ -113,7 +113,7 @@ class SfpUtil(SfpUtilBase):
         return self._port_to_i2c_mapping
 
     def __init__(self):
-        eeprom_path = "/sys/class/i2c-adapter/i2c-{0}/i2c-{1}/{1}-0050/eeprom"
+        eeprom_path = "/sys/bus/i2c/devices/i2c-{0}/i2c-{1}/{1}-0050/eeprom"
 
         for x in range(0, self.port_end+1):
             self.port_to_eeprom_mapping[x] = eeprom_path.format(
